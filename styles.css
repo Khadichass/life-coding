@@ -1,0 +1,7 @@
+.example-div {
+  color: blue;
+}
+
+.example-div {
+  color: red !important;
+}
