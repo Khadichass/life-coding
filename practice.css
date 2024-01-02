@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 480px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.text1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.text2 {
+  text-align: right;
+  padding: 10px;
+}
+.text3 {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.text4 {
+  text-align: center;
+  color: red;
+}
+
+a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 50%;
+}

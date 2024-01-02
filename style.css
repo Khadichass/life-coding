@@ -1,0 +1,11 @@
+tbody {
+  color: white;
+}
+
+table {
+  background-color: red;
+  text-align: center;
+  border-color: red;
+  width: 100%;
+  font-size: 20px;
+}
