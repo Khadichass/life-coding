@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <!-- this label for name-->
+      <label for="name">Enter your name:</label>
+      <input type="text" name="name" id="name" placeholder="Example: John" />
+      <!-- this label for name-->
+      <br />
+      <br />
+      <!-- this label for password-->
+      <label for="password">Enter your password:</label>
+      <input type="password" placeholder="at least 8 digits" />
+      <!-- this label for password-->
+      <br />
+      <br />
+
+      <!-- this label for number-->
+      <label for="numb">Enter your number:</label>
+      <input type="number" name="number" id="numb" />
+      <!-- this label for number-->
+      <br />
+      <br />
+
+      <!-- this label for email-->
+      <label for="email">Enter your email:</label>
+      <input type="email" name="email" id="email" required />
+      <!-- this label for email-->
+      <br />
+      <br />
+
+      <!-- this label for date-->
+      <label for="date">Enter the date:</label>
+      <input type="date" name="date" id="date" />
+      <!-- this label for date-->
+      <br />
+      <br />
+
+      <!-- this label for testing-->
+      <label for="radio">Choose gender:</label>
+      <input type="radio" name="gender" id="radio" />
+      <label for="radio">male</label>
+      <input type="radio" name="gender" id="radio" />
+      <label for="radio">female</label>
+      <input type="radio" name="gender" id="radio" />
+      <label for="radio">not mentioned</label>
+      <!-- this label for testing-->
+      <br />
+      <br />
+
+      <!-- this label for checkbox-->
+      <label for="chekbox">Choose some options:</label>
+      <input type="checkbox" name="option" id="checkbox" />
+      <label for="checkbox">Uzebkistan</label>
+      <input type="checkbox" name="option" id="checkbox" />
+      <label for="checkbox">Russian</label>
+      <!-- this label for checkbox-->
+
+      <button type="submit">Submit it</button>
+      <button type="reset">Submit it</button>
+      <button type="button">Submit it</button>
+
+      <br />
+      <br />
+      <label for="file"> deploy your file</label>
+      <input type="file" name="file" id="file" />
+      <br />
+      <br />
+      <select name="test" id="options" multiple size="5">
+        <label for="">Choose the best option</label>
+        <option value="cars">BMW</option>
+        <option value="cars" selected>kia</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+        <option value="cars">mrs</option>
+      </select>
+      <br />
+      <br />
+      <textarea
+        name="text"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="enter your textkjrnbehjbgrhtb"
+      ></textarea>
+
+      <h1>hello</h1>
+      <a href="./index.html">read</a>
+
+      <div class="text">
+        <h1>hello</h1>
+        <h1>hello</h1>
+        <h1>hello</h1>
+        <span>hi</span>
+      </div>
+
+      <p>Hello <span>World</span></p>
+    </form>
+  </body>
+</html>

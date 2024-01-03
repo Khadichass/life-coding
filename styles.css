@@ -1,7 +1,19 @@
-.example-div {
-  color: blue;
+p {
+  color: orange !important;
 }
 
-.example-div {
-  color: red !important;
+#text {
+  color: red;
+}
+
+.text {
+  color: aqua;
+}
+
+p {
+  color: pink;
+}
+
+* {
+  color: blue;
 }
